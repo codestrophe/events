@@ -1,0 +1,15 @@
+127.0.0.1, 2013-05-19 15:57:04, GET, /, HTTP/1.1, 303, 0.001379
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/default/index, HTTP/1.1, 200, 1.195373
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/js/modernizr.custom.js, HTTP/1.1, 200, 0.000533
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/js/jquery.js, HTTP/1.1, 200, 0.000517
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/css/calendar.css, HTTP/1.1, 200, 0.000588
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/js/calendar.js, HTTP/1.1, 200, 0.000669
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/js/web2py.js, HTTP/1.1, 200, 0.000587
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/css/skeleton.css, HTTP/1.1, 200, 0.000512
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/css/web2py.css, HTTP/1.1, 200, 0.000661
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/css/superfish.css, HTTP/1.1, 200, 0.000519
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/js/superfish.js, HTTP/1.1, 200, 0.000512
+127.0.0.1, 2013-05-19 15:57:06, GET, /welcome/static/images/poweredby.png, HTTP/1.1, 200, 0.000646
+127.0.0.1, 2013-05-19 15:57:07, GET, /welcome/static/images/arrows-ffffff.png, HTTP/1.1, 200, 0.000525
+127.0.0.1, 2013-05-19 15:57:07, GET, /welcome/static/images/shadow.png, HTTP/1.1, 200, 0.000539
+127.0.0.1, 2013-05-19 15:57:08, GET, /welcome/static/favicon.ico, HTTP/1.1, 200, 0.000662
