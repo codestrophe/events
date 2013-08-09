@@ -92,39 +92,30 @@ def data():
     """
     return dict(form=crud())
 
-@auth.requires_login()
+#@auth.requires_login()
+
 def events():
    	form = SQLFORM(db.events)
     	if form.accepts(request.vars, session):
 		response.flash = form.vars.Name + " thank you"
     	return dict(form=form)
 
-@auth.requires_login()
 def invitations():
 	return db(db.events.id > 0).select()
 
-@auth.requires_login()
 def case_studies():
 	return dict()
-
-@auth.requires_login()
 def case_studies_result():
     	db.case_studies.insert(Name=request.vars.name, Question=request.vars.comments, read_ctr=1, Author=db(db.auth_user.id==auth.user.id).select()[0])
 	return dict(); 
-
-@auth.requires_login()
 def case_studies_preview():
 	request.vars['comments'] = strip_tags(request.vars['comments']) 
 	return dict()
-
-@auth.requires_login()
 def reco():
 	form = SQLFORM(db.reco)
 	if(form.accepts(request.vars, session)):
 		response.flash = form.vars.Name + " thank you"
 	return dict(form=form)
-
-@auth.requires_login()
 def reco_results():
 	db.reco.insert(Name=request.vars.name, Skill=request.vars.skill, Author=db(db.auth_user.id==auth.user.id).select()[0])
 	return dict()
